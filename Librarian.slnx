@@ -1,0 +1,14 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Api/">
+    <Project Path="src/Api/Librarian.Api/Librarian.Api.csproj" />
+  </Folder>
+  <Folder Name="/src/Core/">
+    <Project Path="src/Core/Librarian.Application/Librarian.Application.csproj" />
+    <Project Path="src/Core/Librarian.Domain/Librarian.Domain.csproj" />
+  </Folder>
+  <Folder Name="/src/Librarian.Infrastructure/">
+    <Project Path="src/Infrastructure/Librarian.Infrastructure/Librarian.Infrastructure.csproj" />
+    <Project Path="src/Infrastructure/Librarian.Persistence/Librarian.Persistence.csproj" />
+  </Folder>
+</Solution>

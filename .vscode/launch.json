@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Librarian API",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-solution",
+      "program": "${workspaceFolder}/src/Api/Librarian.Api/bin/Debug/net8.0/Librarian.Api.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/Api/Librarian.Api",
+      "stopAtEntry": false,
+      "console": "internalConsole",
+      "internalConsoleOptions": "openOnSessionStart",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "serverReadyAction": {
+        "pattern": "Now listening on: (https?://\\S+)",
+        "uriFormat": "%s/swagger",
+        "action": "debugWithChrome"
+      },
+      "launchSettingsFilePath": "${workspaceFolder}/src/Api/Librarian.Api/Properties/launchSettings.json",
+      "launchSettingsProfile": "https"
+    }
+  ]
+}
